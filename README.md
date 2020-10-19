@@ -5,7 +5,7 @@ Ipxfer Script
 
 By: wtevans
 
-This script is designed to move agents to another osce server or update certificates using the ipxfer tool.
+This script is designed to move agents to another osce server or update certificates using the ipxfer tool from TrendMicro
 
 .Description
 
