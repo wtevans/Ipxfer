@@ -45,7 +45,7 @@ $http_port = 80 # HTTP port of osce server
 $https_port = 443 # HTTPS port of osce server
 $listening_port = 21112 # Agent listening port
 $OSCE_server = "******.manage.trendmicro.com" # Replace with osce server name
-$updateCertificate = $true # The two allowed values are $true and $false. If $false is selected the agent will not run ipxfer if it is reporting to the correct server already. $true is recommended in most scenarios. 
+$updateCertificate = $true # The two allowed values are $true and $false. If $false is selected the agent will not run ipxfer if it is reporting to the correct server already. $true is recommended in most scenarios.  
 ###############################################################################
 
 
@@ -169,7 +169,7 @@ if($64bit -eq $true){
 
 Start-Sleep 10 # This sleep is the only recommended one. The others are added to allow for output to be read before the script exits. The other ones can be removed if so desired. 
 
-# Checks again for the server the agent is configured to report to
+# Checks again for the server the agent is configured to report too.
 $registeredServer = (Get-ItemProperty -Path $key -Name Server).Server
 
 If($registeredServer -ne $OSCE_server){
