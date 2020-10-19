@@ -7,7 +7,7 @@ By: wtevans
 This script is designed to move agents to another osce server or update certificates using the ipxfer tool.
 
 .Description
-This scripted is designed to run the ipxfer to either move agents to another server or update the certificate if there is a mismatched certificate issue.   
+This script is designed to run the ipxfer to either move agents to another server or to update the certificate if there is a mismatched certificate issue.   
 For this script to function properly you will need to place both of the ipxfer's (64 bit and 32 bit versions) in the same running directory as this script. The ipxfer 
 can be found on the Officescan/ApexOne on-prem server [Server Install Path]\PCCSRV\Admin\Utility\IpXfer. You will also need the ofcntcert.dat file in the same running directory
 as well found at [Server Path]\PCCSRV\Pccnt\Common\OfcNTCer.dat. There is a section in the body of the script called "Specified Variables" that need to be modified 
