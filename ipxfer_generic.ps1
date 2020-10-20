@@ -61,6 +61,7 @@ $Global:LogFilePath = "$env:TEMP\Ipxfer" # Change this to the desired path | Do 
 
 # Logging Function for UTF8 log
 function UTF8Log {
+    # Function by: Jeff Clark
     param (
         [Parameter(Mandatory=$true)]
         $message,
